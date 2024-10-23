@@ -1,0 +1,27 @@
+#container{
+    height: 60%;
+    display: flex;
+    align-items: flex-end;
+    margin: 0.5%;
+    width: 100%;
+    justify-content: center;
+}
+body{
+    display: flex;
+    margin: 2%;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+.bar{
+    width: 1%;
+    background-color: black;
+    margin: 0.5%;
+   
+}
+.btn{
+    background-color: burlywood;
+}
+.input{
+    background-color: burlywood;
+}

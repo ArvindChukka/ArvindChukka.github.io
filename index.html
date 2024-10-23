@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Sorting Algorithms Visualizer</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Sorting Algorithms Visualizer</h1>
+        <div id="sub-heading">
+        <label for="input">Enter Number of elements</label>
+        <input type="text" name="input" id="input" value="20" class="input">
+        <button id="btn1" class="btn">INITIALIZE</button>
+     <!--   <button id="btn2" class="btn">Clear</button> -->
+        <!-- <button id="pause" class="btn" onclick="pause()">PAUSE</button>
+        <button id="play" class="btn" onclick="play()">PLAY</button> -->
+        <br>
+        <label for="speed" >Animation Speed</label>
+        <input type="range" min="1" max="10" value="1" class="input" id="range" name="speed">
+        <label id="speed"></label>
+        </div>
+        <div id="container"></div>
+        <h1 id="heading"></h1>
+        <div id="algobtn">
+            <button id="bubble" class="btn">BUBBLE SORT</button>
+            <button id="selection" class="btn">SELECTION SORT</button>
+            <button id="merge" class="btn">MERGE SORT</button>
+        </div>
+        <script src="script.js"></script>
+
+    </body>
+</html>
